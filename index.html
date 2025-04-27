@@ -1,41 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Agenda de Locação da Edícula</title>
-  <link rel="stylesheet" href="style.css"> <!-- Referência ao arquivo CSS -->
-</head>
-<body>
-  <div class="container">
-    <h1>Agenda de Locação da Edícula</h1>
-    <p>Confira abaixo os dias <strong>já locados</strong> e os dias <strong>disponíveis</strong> para reservar:</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Agenda de Locação da Edícula</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Agenda de Locação da Edícula</h1>
+            <p>
+                Confira abaixo os dias <strong>já locados</strong> e os dias
+                <strong>disponíveis</strong> para reservar:
+            </p>
 
-    <!-- Google Agenda -->
-    <iframe 
-      src="https://calendar.google.com/calendar/embed?src=e7b83b80a54c6bb45c941f86dd5647b2043a7165ff160479e3343b3aa6234748%40group.calendar.google.com&ctz=America%2FBelem" 
-      frameborder="0" 
-      scrolling="no">
-    </iframe>
+            <!-- Google Agenda -->
+            <iframe
+                src="https://calendar.google.com/calendar/embed?src=e7b83b80a54c6bb45c941f86dd5647b2043a7165ff160479e3343b3aa6234748%40group.calendar.google.com&ctz=America%2FBelem"
+                frameborder="0"
+                scrolling="no"
+            >
+            </iframe>
 
-    <!-- Galeria de imagens -->
-    <h2>Veja o Espaço</h2>
-    <div class="gallery">
-      <img src="https://via.placeholder.com/300x200?text=Foto+1" alt="Foto do local 1">
-      <img src="https://via.placeholder.com/300x200?text=Foto+2" alt="Foto do local 2">
-      <img src="https://via.placeholder.com/300x200?text=Foto+3" alt="Foto do local 3">
-      <img src="https://via.placeholder.com/300x200?text=Foto+4" alt="Foto do local 4">
-    </div>
+            <!-- Galeria de imagens -->
+            <h2>Veja o Espaço</h2>
+            <div class="gallery">
+                <img src="images/imagem1.jpg" alt="Imagem 1">
+                <img src="images/imagem2.jpg" alt="Imagem 2">
+                <img src="images/imagem3.jpg" alt="Imagem 3">
+                <img src="images/imagem4.jpg" alt="Imagem 4">
+            </div>
+            
+            
+            <!-- Informações -->
+            <div class="info">
+                <p>
+                    As datas com marcação estão <strong>indisponíveis</strong>.
+                    Para reservar uma data disponível, clique abaixo e fale
+                    diretamente pelo WhatsApp.
+                </p>
+            </div>
 
-    <!-- Informações -->
-    <div class="info">
-      <p>As datas com marcação estão <strong>indisponíveis</strong>. Para reservar uma data disponível, clique abaixo e fale diretamente pelo WhatsApp.</p>
-    </div>
+            <!-- Botão WhatsApp -->
+            <a
+                class="btn-contato"
+                href="https://wa.me/5544998074850?text=Olá%2C+gostaria+de+reservar+a+edícula.+Vi+as+datas+no+site+e+me+interessei+%F0%9F%8F%A1"
+                target="_blank"
+            >
+                Reservar Data pelo WhatsApp
+            </a>
 
-    <!-- Botão WhatsApp -->
-    <a class="btn-contato" href="https://wa.me/5544998074850?text=Olá%2C+gostaria+de+reservar+a+edícula.+Vi+as+datas+no+site+e+me+interessei+%F0%9F%8F%A1" target="_blank">
-      Reservar Data pelo WhatsApp
-    </a>
-  </div>
-</body>
+            <!-- Rodapé -->
+            <footer>
+                <p>
+                    &copy; 2025 Agenda de Locação da Edícula - Todos os direitos
+                    reservados.
+                </p>
+            </footer>
+        </div>
+    </body>
 </html>
